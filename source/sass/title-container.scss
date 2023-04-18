@@ -1,0 +1,32 @@
+.title-container {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.title-container__title {
+  font-size: 45px;
+  padding-left: 30px;
+
+  @media (min-width: $tablet-width) {
+    font-weight: 400;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+  }
+}
+
+.title-container__subtitle {
+  font-size: 22px;
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+  }
+}
+
+.title-container__mepicture {
+  @media (min-width: $desktop-width) {
+    width: 670px;
+  }
+}

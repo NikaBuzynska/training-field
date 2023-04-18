@@ -1,0 +1,133 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bebasneue/v9/JTUSjIg69CK48gW7PXoo9WlhyyTh89Y.woff2) format("woff2");
+}
+.page {
+  margin: 0;
+  background-color: #000;
+}
+
+.page__navigation {
+  height: 60px;
+}
+@media (min-width: 768px) {
+  .page__navigation {
+    margin-bottom: 43px;
+  }
+}
+
+.page__navigation-logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.page__navigation-list {
+  display: none;
+}
+@media (min-width: 768px) {
+  .page__navigation-list {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.page__navigation-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page__navigation-toggle {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  background-image: url("../img/menu2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+}
+
+.text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  color: #fff;
+}
+
+.list {
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.title-container__title {
+  font-size: 45px;
+  padding-left: 30px;
+}
+@media (min-width: 768px) {
+  .title-container__title {
+    font-weight: 400;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+  }
+}
+
+.title-container__subtitle {
+  font-size: 22px;
+}
+@media (min-width: 768px) {
+  .title-container__subtitle {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .title-container__mepicture {
+    width: 670px;
+  }
+}
+
+.main-container__title {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-container__description {
+  font-family: "Arial";
+  font-weight: 400;
+  color: #7cbdbb;
+  line-height: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-container__item-content {
+  background-image: url("../img/sedona-project.png");
+  background-size: 350px;
+}
+/*# sourceMappingURL=style.css.map */

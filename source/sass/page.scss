@@ -1,0 +1,57 @@
+.page {
+  margin: 0;
+  background-color: #000;
+}
+
+.page__navigation {
+  height: 60px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 43px;
+  }
+}
+
+.page__navigation-logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.page__navigation-list {
+  display: none;
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.page__navigation-link {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page__navigation-toggle {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  background-image: url("../img/menu2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+}
+
+.text {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  color: #fff;
+}
+
+
+.list {
+  list-style-type: none;
+}
